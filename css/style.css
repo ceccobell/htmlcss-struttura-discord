@@ -41,6 +41,20 @@ li {
     border: 2px dashed black;
 }
 
+.col-60 {
+    width: 60%;
+    height: 400px;
+    background-color: #1E90FF;
+    border: 2px dashed black;
+}
+
+.col-40 {
+    width: 40%;
+    height: 400px;
+    background-color: #FFC0CB;
+    border: 2px dashed black;
+}
+
 .lightblue {
     background-color: lightblue;
     padding: 10px 200px 10px 200px;
@@ -48,5 +62,15 @@ li {
 
 .blue {
     background-color: rgb(5, 5, 150);
-    padding: 20px 0px 20px 300px;
+    padding: 30px 0px 30px 300px;
+}
+
+.white {
+    background-color: white;
+    padding: 30px 200px 30px 200px;
+}
+
+.lightgrey {
+    background-color: lightgrey;
+    padding: 30px 200px 30px 200px;
 }
