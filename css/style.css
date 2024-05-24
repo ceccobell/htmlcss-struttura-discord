@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-25 {
+    width: 25%;
+    background-color: #83661F;
+    border: 1px solid black;
+}
+
+.col-50 {
+    width: 50%;
+    background-color: #83661F;
+    border: 1px solid black;
+}
