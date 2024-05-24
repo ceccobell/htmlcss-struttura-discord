@@ -39,6 +39,7 @@ li {
     height: 300px;
     background-color: #EE82EE;
     border: 2px dashed black;
+    margin: 0 auto;
 }
 
 .col-60 {
@@ -80,6 +81,7 @@ li {
     width: 100%;
     background-color: #7FFFD4;
     padding: 10px 0px 10px 0px;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -97,7 +99,7 @@ li {
 
 .blue {
     background-color: rgb(5, 5, 150);
-    padding: 30px 0px 30px 300px;
+    padding: 30px 0px 30px 0px;
 }
 
 .white {
@@ -114,4 +116,8 @@ li {
     background-color: rgba(0, 0, 0, 0.849);
     padding: 10px 200px 30px 200px;
     margin-bottom: 1px;
+}
+
+.text-right {
+    text-align: right;
 }
