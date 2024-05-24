@@ -62,6 +62,20 @@ li {
     border: 2px dashed black;
 }
 
+.col-xl {
+    width: calc(100% / 3);
+    height: 400px;
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+.col-sm {
+    width: calc((100% / 3) / 2);
+    height: 400px;
+    background-color: #20B2AA;
+    border: 2px dashed white;
+}
+
 .lightblue {
     background-color: lightblue;
     padding: 10px 200px 10px 200px;
@@ -80,4 +94,10 @@ li {
 .lightgrey {
     background-color: lightgrey;
     padding: 30px 200px 30px 200px;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 10px 200px 30px 200px;
+
 }
